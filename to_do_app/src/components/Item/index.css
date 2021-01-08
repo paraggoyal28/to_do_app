@@ -1,0 +1,72 @@
+.delete {
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    display: none;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background: url(http://localtodos.com/destroy.png) no-repeat;
+}
+
+.delete:hover{
+    background-position: 0 -20px;
+}
+
+.add {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    display: none;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDQ1NSA0NTUiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ1NSA0NTU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwb2x5Z29uIHBvaW50cz0iNDU1LDIxMi41IDI0Mi41LDIxMi41IDI0Mi41LDAgMjEyLjUsMCAyMTIuNSwyMTIuNSAwLDIxMi41IDAsMjQyLjUgMjEyLjUsMjQyLjUgMjEyLjUsNDU1IDI0Mi41LDQ1NSAyNDIuNSwyNDIuNSANCgk0NTUsMjQyLjUgIi8+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg) no-repeat;
+}
+
+.descriptionInput {
+    width: 500px;
+    font-size: 24px;
+    line-height: 1.4em;
+    outline: none;
+    display: none;
+    padding: 6px;
+    border: 1px solid #999999;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+}
+
+.created {
+    border-radius: 4px;
+    padding: 2px;
+    font-size: 10px;
+    color: lightseagreen;
+}
+
+.updated {
+    border-radius: 4px;
+    padding: 2px;
+    font-size: 10px;
+    color: lightsalmon;
+}
+
+.description {
+    font-size: 18px;
+    padding: 4px;
+    color: lightblue;
+}
+
+.view {
+    padding: 18px 20px 18px 0;
+    position: relative;
+    font-size: 24px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.viewText {
+    margin-left: 10px;
+}
+
+.toggle:checked + label{
+    color: #777777;
+    text-decoration: line-through;
+}
