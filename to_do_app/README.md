@@ -11,6 +11,4 @@ Functionalities:
 7. Adding searching to filter out the items with either name or description containing the searched query. If the search query contains 3 or more characters, then only start filtering.
 8. Mark all as complete feature
 9. Show the count of the unmarked items.
-10. Edit a todo item.
-
-Used font-awesome for some styling.
+10. Clear all the marked.
